@@ -4,7 +4,9 @@ In this repository, I demonstrate how to extract n-grams from a large text file 
 
 The key idea behind this repo is using MapReduce to extract all the bi-grams. The paradigm is to divide the input data into smaller chunks, process each chunk in parallel across a distributed set of nodes, and then combine the results into a final output.
 
-## Hadoop Set Up
+## Getting Started
+
+### Hadoop Set Up
 
 In your local machine or cloud instance, in my case an Ubuntu OS AWS EC2 instance, you got to install Hadoop Streaming. I found this [walkthrough](https://www.digitalocean.com/community/tutorials/how-to-install-hadoop-in-stand-alone-mode-on-ubuntu-20-04) pretty useful when installing all the required dependencies.
 
