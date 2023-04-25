@@ -6,8 +6,11 @@ The key idea behind this repo is using MapReduce to extract all the bi-grams. Th
 
 ## Getting Started
 
+### Launch AWS EC2 Instance
+You can follow the instructions [here](https://github.com/farhan0167/hadoop-streaming/blob/main/AWS_Setup.md) to set up an Ec2 instance.
+
 ### Hadoop Set Up
 
-In your local machine or cloud instance, in my case an Ubuntu OS AWS EC2 instance, you got to install Hadoop Streaming. I found this [walkthrough](https://www.digitalocean.com/community/tutorials/how-to-install-hadoop-in-stand-alone-mode-on-ubuntu-20-04) pretty useful when installing all the required dependencies.
+Once your EC2 instance is set up, you got to install Hadoop Streaming. I found this [walkthrough](https://www.digitalocean.com/community/tutorials/how-to-install-hadoop-in-stand-alone-mode-on-ubuntu-20-04) pretty useful when installing all the required dependencies.
 
 **Note**: This repo is a work in progress
